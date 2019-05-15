@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fotm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <teams>
+    <team country="Име" nickname="Име" group="GR1" currency="Вал" trackEntered="Име">
+      <id>7896</id>
+      <name>Пенчо</name>
+      <titles>0</titles>
+      <pointsEarned>85</pointsEarned>
+      <numberOfWins>96</numberOfWins>
+      <numberOfPolePositions>85</numberOfPolePositions>
+      <teamChief>Шеф</teamChief>
+      <technicalChief>Шеф</technicalChief>
+      <budget>4568</budget>
+      <firstTeamEntry>1569</firstTeamEntry>
+      <baseLocation>Име</baseLocation>
+      <numberOfRaces>4859</numberOfRaces>
+      <pilots>
+        <pilot number="444">
+          <id>147</id>
+          <name>Ганьо</name>
+          <nationality>Име</nationality>
+        </pilot>
+        <pilot number="99">
+          <id>471</id>
+          <name>Пенчо</name>
+          <nationality>Име</nationality>
+        </pilot>
+      </pilots>
+      <powerUnit>Име</powerUnit>
+      <fastestPitStop>74</fastestPitStop>
+      <teamLogo>default.jpeg</teamLogo>
+    </team>
+  </teams>
+  <groups>
+    <group groupCode="GR1">
+      <text>Група 1 - Водещи отбори</text>
+    </group>
+    <group groupCode="GR2">
+      <text>Група 2 - Солидни отбори</text>
+    </group>
+    <group groupCode="GR3">
+      <text>Група 3 - Напредващи отбори</text>
+    </group>
+    <group groupCode="GR4">
+      <text>Група 4 - Отпадащи отбори</text>
+    </group>
+  </groups>
+  <tracks>
+    <track numberOfRaces="75">
+      <id>852</id>
+      <firstRace>9633</firstRace>
+      <lapRecord>654</lapRecord>
+      <name>Пистарикус</name>
+      <bestPilotId>156</bestPilotId>
+    </track>
+  </tracks>
+</fotm>

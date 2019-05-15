@@ -1,0 +1,63 @@
+﻿<link href="~/Styles/FormStyle.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "Form";
+}
+<h2></h2>
+<div class="form-style-10">
+    <h1>Форма за въвеждане на информация<span>Попълнете всички полета свързани с генерирането на XML и запазване в базата</span></h1>
+    <form id="asd" action="SaveData" method="post">
+        <div class="section"><span>1</span>Пилоти на отбора</div>
+        <div class="inner-wrap">
+            <label>Уникален идентификационен номер <input type="number" name="firstPilotId" min="0"/></label>
+            <label>Име на пилот <input type="text" name="firstPilotName" /></label>
+            <label>Номер <input type="text" name="firstPilotNumber" /></label>
+            <label>Националност <input type="text" name="firstPilotNationality" /></label>
+
+            <hr color="#0000FF" />
+
+            <label>Уникален идентификационен номер <input type="text" name="secondPilotId" /></label>
+            <label>Име на пилот <input type="text" name="secondPilotName" /></label>
+            <label>Номер <input type="text" name="secondPilotNumber" /></label>
+            <label>Националност <input type="text" name="secondPilotNationality" /></label>
+
+        </div>
+
+        <div class="section"><span>2</span>Отбор</div>
+        <div class="inner-wrap">
+            <label>Уникален идентификационен номер <input type="number" name="teamId" min="0"/></label>
+            <label>Име <input type="text" name="teamName" /></label>
+            <label>Националност <input type="text" name="teamNationality" /></label>
+            <label>Прякор <input type="text" name="nickname" /></label>
+            <label>Група (GR1, GR2, GR3, GR4) <input type="text" name="group" /></label>
+            <label>Валута <input type="text" name="currency" /></label>
+            <label>Първо състезание (име на писта) <input type="text" name="trackEntered" /></label>
+            <label>Брой титли <input type="text" name="titles" /></label>
+            <label>Цвят <input type="text" name="colour" /></label>
+            <label>Спечелени точки <input type="text" name="pointsEarned" /></label>
+            <label>Спечелени състезания <input type="text" name="numberOfWins" /></label>
+            <label>Брой на пол позиции <input type="text" name="numberOfPolePosition" /></label>
+            <label>Шеф на отбора <input type="text" name="teamChief" /></label>
+            <label>Технически шеф <input type="text" name="technicalChief" /></label>
+            <label>Бюджет <input type="text" name="budget" /></label>
+            <label>Дебют <input type="text" name="firstTeamEntry" /></label>
+            <label>Локация на база <input type="text" name="baseLocation" /></label>
+            <label>Брой състезания <input type="text" name="numberOfRaces" /></label>
+            <label>Задвижващ елемент <input type="text" name="powerUnit" /></label>
+            <label>Най - бърз бокс <input type="text" name="fastestPitStop" /></label>
+        </div>
+
+        <div class="section"><span>3</span>Писта</div>
+        <div class="inner-wrap">
+            <label>Уникален идентификационен номер <input type="number" name="trackId" min="0"/></label>
+            <label>Име <input type="text" name="trackName" /></label>
+            <label>Брой проведени състезания <input type="text" name="trackNumberOfRaces" /></label>
+            <label>Първо състезание <input type="text" name="firstRace" /></label>
+            <label>Рекордна обиколка <input type="text" name="lapRecord" /></label>
+            <label>Най - добър пилот - УИН <input type="text" name="bestPilotId" /></label>
+        </div>
+        <div class="button-section">
+            <button class="btn" type="submit" onclick="$('#asd').serialize();">Въведи</button>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fotm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <teams>
+    <team country="яяя" nickname="яяя" group="GR4" currency="яве" trackEntered="яве">
+      <id>5823</id>
+      <name>яяя</name>
+      <titles>0</titles>
+      <colour>яве</colour>
+      <pointsEarned>88</pointsEarned>
+      <numberOfWins>88</numberOfWins>
+      <numberOfPolePositions>88</numberOfPolePositions>
+      <teamChief>явед</teamChief>
+      <technicalChief>асд</technicalChief>
+      <budget>56</budget>
+      <firstTeamEntry>9562</firstTeamEntry>
+      <baseLocation>асд</baseLocation>
+      <numberOfRaces>4521</numberOfRaces>
+      <pilots>
+        <pilot number="9845">
+          <id>58954</id>
+          <name>яяя</name>
+          <nationality>яяя</nationality>
+        </pilot>
+        <pilot number="5623">
+          <id>7854</id>
+          <name>яяя</name>
+          <nationality>яяя</nationality>
+        </pilot>
+      </pilots>
+      <powerUnit>асд</powerUnit>
+      <fastestPitStop>98465</fastestPitStop>
+      <teamLogo>default.jpeg</teamLogo>
+    </team>
+  </teams>
+  <groups>
+    <group groupCode="GR1">
+      <text>Група 1 - Водещи отбори</text>
+    </group>
+    <group groupCode="GR2">
+      <text>Група 2 - Солидни отбори</text>
+    </group>
+    <group groupCode="GR3">
+      <text>Група 3 - Напредващи отбори</text>
+    </group>
+    <group groupCode="GR4">
+      <text>Група 4 - Отпадащи отбори</text>
+    </group>
+  </groups>
+  <tracks>
+    <track numberOfRaces="8451">
+      <id>8456</id>
+      <firstRace>8451</firstRace>
+      <lapRecord>4851</lapRecord>
+      <name>асд</name>
+      <bestPilotId>845</bestPilotId>
+    </track>
+  </tracks>
+</fotm>

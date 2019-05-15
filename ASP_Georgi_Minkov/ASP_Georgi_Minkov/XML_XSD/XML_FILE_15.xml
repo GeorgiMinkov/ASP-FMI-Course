@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<fotm>
+  <teams>
+    <team country="Франция" nickname="Френското чудо" group="GR2" currency="eur" trackEntered="Монца">
+      <id>1055</id>
+      <name>Рено</name>
+      <titles>5</titles>
+      <colour>Жълт</colour>
+      <pointsEarned>378</pointsEarned>
+      <numberOfWins>1</numberOfWins>
+      <numberOfPolePositions>1</numberOfPolePositions>
+      <teamChief>Инди</teamChief>
+      <technicalChief>Джеймс Кей</technicalChief>
+      <budget>9005418</budget>
+      <firstTeamEntry>2006</firstTeamEntry>
+      <baseLocation>Париж</baseLocation>
+      <numberOfRaces>226</numberOfRaces>
+      <pilots>
+        <pilot number="27">
+          <id>186</id>
+          <name>Нико Хулкенберг</name>
+          <nationality>Германия</nationality>
+        </pilot>
+        <pilot number="55">
+          <id>277</id>
+          <name>Карлоз Саинц</name>
+          <nationality>Испания</nationality>
+        </pilot>
+      </pilots>
+      <powerUnit>Рено</powerUnit>
+      <fastestPitStop>2.04</fastestPitStop>
+      <teamLogo>renault.jpg</teamLogo>
+    </team>
+  </teams>
+  <groups>
+    <group groupCode="GR1">
+      <text>Група 1 - Водещи отбори</text>
+    </group>
+    <group groupCode="GR2">
+      <text>Група 2 - Солидни отбори</text>
+    </group>
+    <group groupCode="GR3">
+      <text>Група 3 - Напредващи отбори</text>
+    </group>
+    <group groupCode="GR4">
+      <text>Група 4 - Отпадащи отбори</text>
+    </group>
+  </groups>
+
+
+  <tracks>
+    <track numberOfRaces="78">
+      <id>408</id>
+      <firstRace>1925</firstRace>
+      <lapRecord>1.98</lapRecord>
+      <name>Дю Солей</name>
+      <bestPilotId>169</bestPilotId>
+    </track>
+  </tracks>
+</fotm>
+

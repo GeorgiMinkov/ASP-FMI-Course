@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fotm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <teams>
+    <team country="НА" nickname="НА" group="GR4" currency="асд" trackEntered="Тук">
+      <id>9635</id>
+      <name>СССР</name>
+      <titles>0</titles>
+      <pointsEarned>7862</pointsEarned>
+      <numberOfWins>75</numberOfWins>
+      <numberOfPolePositions>63</numberOfPolePositions>
+      <teamChief>Тоз</teamChief>
+      <technicalChief>Онзи</technicalChief>
+      <budget>852</budget>
+      <firstTeamEntry>1885</firstTeamEntry>
+      <baseLocation>СООО</baseLocation>
+      <numberOfRaces>63</numberOfRaces>
+      <pilots>
+        <pilot number="456">
+          <id>456</id>
+          <name>Ганьо</name>
+          <nationality>Нац</nationality>
+        </pilot>
+        <pilot number="34567">
+          <id>89632</id>
+          <name>Пенчо</name>
+          <nationality>Нац</nationality>
+        </pilot>
+      </pilots>
+      <powerUnit>ОСС</powerUnit>
+      <fastestPitStop>52</fastestPitStop>
+      <teamLogo>default.jpeg</teamLogo>
+    </team>
+  </teams>
+  <groups>
+    <group groupCode="GR1">
+      <text>Група 1 - Водещи отбори</text>
+    </group>
+    <group groupCode="GR2">
+      <text>Група 2 - Солидни отбори</text>
+    </group>
+    <group groupCode="GR3">
+      <text>Група 3 - Напредващи отбори</text>
+    </group>
+    <group groupCode="GR4">
+      <text>Група 4 - Отпадащи отбори</text>
+    </group>
+  </groups>
+  <tracks>
+    <track numberOfRaces="563">
+      <id>7521</id>
+      <firstRace>1582</firstRace>
+      <lapRecord>526</lapRecord>
+      <name>км</name>
+      <bestPilotId>99</bestPilotId>
+    </track>
+  </tracks>
+</fotm>

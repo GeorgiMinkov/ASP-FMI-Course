@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<fotm>
+  <teams>
+    <team country="Англия" nickname="Сребърните стрели" group="GR3" currency="eur" trackEntered="Англия">
+      <id>1541</id>
+      <name>Макларън</name>
+      <titles>0</titles>
+      <colour>Оранжев</colour>
+      <pointsEarned>478</pointsEarned>
+      <numberOfWins>1</numberOfWins>
+      <numberOfPolePositions>1</numberOfPolePositions>
+      <teamChief>Дюс</teamChief>
+      <technicalChief>Стивънс</technicalChief>
+      <budget>9005418</budget>
+      <firstTeamEntry>2006</firstTeamEntry>
+      <baseLocation>Англия</baseLocation>
+      <numberOfRaces>326</numberOfRaces>
+      <pilots>
+        <pilot number="14">
+          <id>194</id>
+          <name>Фернандо Алонсо</name>
+          <nationality>Испания</nationality>
+        </pilot>
+        <pilot number="11">
+          <id>191</id>
+          <name>Стофан Вандоорн</name>
+          <nationality>Дания</nationality>
+        </pilot>
+      </pilots>
+      <powerUnit>Хонда</powerUnit>
+      <fastestPitStop>2.06</fastestPitStop>
+      <teamLogo>mc.jpg</teamLogo>
+    </team>
+  </teams>
+  <groups>
+    <group groupCode="GR1">
+      <text>Група 1 - Водещи отбори</text>
+    </group>
+    <group groupCode="GR2">
+      <text>Група 2 - Солидни отбори</text>
+    </group>
+    <group groupCode="GR3">
+      <text>Група 3 - Напредващи отбори</text>
+    </group>
+    <group groupCode="GR4">
+      <text>Група 4 - Отпадащи отбори</text>
+    </group>
+  </groups>
+
+
+  <tracks>
+    <track numberOfRaces="108">
+      <id>4588</id>
+      <firstRace>1944</firstRace>
+      <lapRecord>1.88</lapRecord>
+      <name>Абу Даби</name>
+      <bestPilotId>155</bestPilotId>
+    </track>
+  </tracks>
+</fotm>
+

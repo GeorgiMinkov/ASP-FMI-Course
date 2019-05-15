@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fotm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <teams>
+    <team country="9" nickname="9" group="9" currency="9" trackEntered="9">
+      <id>9</id>
+      <name>9</name>
+      <titles>0</titles>
+      <poinstEarned>9</poinstEarned>
+      <numberOfWins>9</numberOfWins>
+      <numberOfPolePositions>9</numberOfPolePositions>
+      <teamChief>9</teamChief>
+      <technicalChief>9</technicalChief>
+      <budget>9</budget>
+      <firsTeamEntry>9</firsTeamEntry>
+      <baseLocation>9</baseLocation>
+      <numberOfRaces>9</numberOfRaces>
+      <pilots>
+        <pilot number="99">
+          <id>99</id>
+          <name>99</name>
+          <nationality>99</nationality>
+        </pilot>
+        <pilot number="9">
+          <id>99</id>
+          <name>99</name>
+          <nationality>9</nationality>
+        </pilot>
+      </pilots>
+      <powerUnit>9</powerUnit>
+      <fastestPitStop>9</fastestPitStop>
+      <teamLogo>default.jpeg</teamLogo>
+    </team>
+  </teams>
+  <groups>
+    <group groupCode="GR1">
+      <text>Група 1 - Водещи отбори</text>
+    </group>
+    <group groupCode="GR2">
+      <text>Група 2 - Солидни отбори</text>
+    </group>
+    <group groupCode="GR3">
+      <text>Група 3 - Напредващи отбори</text>
+    </group>
+    <group groupCode="GR4">
+      <text>Група 4 - Отпадащи отбори</text>
+    </group>
+  </groups>
+  <tracks>
+    <track numberOfRaces="9">
+      <id>9</id>
+      <firstRace>9</firstRace>
+      <lapRecord>9</lapRecord>
+      <name>9</name>
+      <bestPilotId>9</bestPilotId>
+    </track>
+  </tracks>
+</fotm>

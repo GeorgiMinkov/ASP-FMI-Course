@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<fotm>
+  <teams>
+    <team country="Италия" nickname="Ред Бул" group="GR1" currency="eur" trackEntered="Бахрейн">
+      <id>103</id>
+      <name>Ред Бул</name>
+      <titles>0</titles>
+      <colour>Син</colour>
+      <pointsEarned>378</pointsEarned>
+      <numberOfWins>1</numberOfWins>
+      <numberOfPolePositions>1</numberOfPolePositions>
+      <teamChief>Инди</teamChief>
+      <technicalChief>Джеймс Кей</technicalChief>
+      <budget>9005418</budget>
+      <firstTeamEntry>2006</firstTeamEntry>
+      <baseLocation>Германия</baseLocation>
+      <numberOfRaces>226</numberOfRaces>
+      <pilots>
+        <pilot number="99">
+          <id>180</id>
+          <name>Даниел Рикардо</name>
+          <nationality>Австралия</nationality>
+        </pilot>
+        <pilot number="33">
+          <id>181</id>
+          <name>Макс Верстапен</name>
+          <nationality>Холандия</nationality>
+        </pilot>
+      </pilots>
+      <powerUnit>Хонда</powerUnit>
+      <fastestPitStop>1.96</fastestPitStop>
+      <teamLogo>red_bull.jpg</teamLogo>
+    </team>
+  </teams>
+  <groups>
+    <group groupCode="GR1">
+      <text>Група 1 - Водещи отбори</text>
+    </group>
+    <group groupCode="GR2">
+      <text>Група 2 - Солидни отбори</text>
+    </group>
+    <group groupCode="GR3">
+      <text>Група 3 - Напредващи отбори</text>
+    </group>
+    <group groupCode="GR4">
+      <text>Група 4 - Отпадащи отбори</text>
+    </group>
+  </groups>
+
+
+  <tracks>
+    <track numberOfRaces="55">
+      <id>402</id>
+      <firstRace>1955</firstRace>
+      <lapRecord>1.48</lapRecord>
+      <name>Спа</name>
+      <bestPilotId>140</bestPilotId>
+    </track>
+  </tracks>
+</fotm>
+

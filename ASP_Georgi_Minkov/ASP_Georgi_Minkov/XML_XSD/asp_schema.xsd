@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="fotm">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="teams"/>
+        <xs:element ref="groups"/>
+        <xs:element ref="tracks"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="teams">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="team"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="team">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="id"/>
+        <xs:element ref="name"/>
+        <xs:element ref="baseLocation"/>
+        <xs:element ref="budget"/>
+        <xs:element ref="colour"/>
+        <xs:element ref="fastestPitStop"/>
+        <xs:element ref="firstTeamEntry"/>
+        <xs:element ref="numberOfPolePositions"/>
+        <xs:element ref="numberOfRaces"/>
+        <xs:element ref="numberOfWins"/>
+        <xs:element ref="pilots"/>
+        <xs:element ref="pointsEarned"/>
+        <xs:element ref="powerUnit"/>
+        <xs:element ref="teamChief"/>
+        <xs:element ref="technicalChief"/>
+        <xs:element ref="titles"/>
+        <xs:element ref="teamLogo"/>
+      </xs:choice>
+      <xs:attribute name="country" use="required" type="xs:string"/>
+      <xs:attribute name="group" use="required" type="GR1_4"/>
+      <xs:attribute name="nickname" use="required" type="xs:string"/>
+      <xs:attribute name="currency" use="required" type="xs:string"/>
+      <xs:attribute name="trackEntered" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="baseLocation" type="xs:string"/>
+  <xs:element name="budget" type="xs:integer"/>
+  <xs:element name="colour" type="xs:string"/>
+  <xs:element name="fastestPitStop" type="xs:decimal"/>
+  <xs:element name="firstTeamEntry" type="xs:positiveInteger"/>
+  <xs:element name="numberOfPolePositions" type="xs:integer"/>
+  <xs:element name="numberOfRaces" type="xs:positiveInteger"/>
+  <xs:element name="numberOfWins" type="xs:integer"/>
+  <xs:element name="pilots">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="pilot"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="pilot">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="id"/>
+        <xs:element ref="name"/>
+        <xs:element ref="nationality"/>
+      </xs:sequence>
+      <xs:attribute name="number" use="required" type="xs:positiveInteger"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nationality" type="xs:string"/>
+  <xs:element name="pointsEarned" type="xs:positiveInteger"/>
+  <xs:element name="powerUnit" type="xs:string"/>
+  <xs:element name="teamChief" type="xs:string"/>
+  <xs:element name="technicalChief" type="xs:string"/>
+  <xs:element name="titles" type="xs:integer"/>
+  <xs:element name="teamLogo" type="xs:string"/>
+  <xs:element name="groups">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="group"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="group">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element ref="text"/>
+      </xs:sequence>
+      <xs:attribute name="groupCode" use="required" type="GR1_4"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="GR1_4">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="GR1"/>
+      <xs:enumeration value="GR2"/>
+      <xs:enumeration value="GR3"/>
+      <xs:enumeration value="GR4"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:element name="tracks">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="track"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="track">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="id"/>
+        <xs:element ref="firstRace"/>
+        <xs:element ref="lapRecord"/>
+        <xs:element ref="name"/>
+        <xs:element ref="bestPilotId"/>
+      </xs:sequence>
+      <xs:attribute name="numberOfRaces" use="required" type="xs:positiveInteger"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="id" type="xs:positiveInteger"/>
+  <xs:element name="text" type="xs:string"/>
+  <xs:element name="name" type="xs:string"/>
+  <xs:element name="firstRace" type="xs:integer"/>
+  <xs:element name="lapRecord" type="xs:decimal"/>
+  <xs:element name="bestPilotId" type="xs:integer"/>
+</xs:schema>

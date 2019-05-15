@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<fotm>
+  <teams>
+    <team country="Швейцария" nickname="Заубер" group="GR4" currency="eur" trackEntered="Южна Африка">
+      <id>13</id>
+      <name>Заубер</name>
+      <titles>0</titles>
+      <colour>Син</colour>
+      <pointsEarned>421</pointsEarned>
+      <numberOfWins>1</numberOfWins>
+      <nuberOfPolePositions>1</numberOfPolePositions>
+      <teamChief>Фредерик Весер</teamChief>
+      <technicalChief>Йорг Зандер</technicalChief>
+      <budget>8105418</budget>
+      <firstTeamEntry>1993</firstTeamEntry>
+      <baseLocation>Швейцария</baseLocation>
+      <numberOfRaces>336</numberOfRaces>
+      <pilots>
+        <pilot number="0">
+          <id>160</id>
+          <name>Маркус Ериксон</name>
+          <nationality>Швеция</nationality>
+        </pilot>
+        <pilot number="16">
+          <id>161</id>
+          <name>Чарли Шеклер</name>
+          <nationality>Монако</nationality>
+        </pilot>
+      </pilots>
+      <powerUnit>Ферари</powerUnit>
+      <fastestPitStop>2.09</fastestPitStop>
+      <teamLogo>sauber.jpg</teamLogo>
+    </team>
+  </teams>
+  <groups>
+    <group groupCode="GR1">
+      <text>Група 1 - Водещи отбори</text>
+    </group>
+    <group groupCode="GR2">
+      <text>Група 2 - Солидни отбори</text>
+    </group>
+    <group groupCode="GR3">
+      <text>Група 3 - Напредващи отбори</text>
+    </group>
+    <group groupCode="GR4">
+      <text>Група 4 - Отпадащи отбори</text>
+    </group>
+  </groups>
+
+
+  <tracks>
+    <track numberOfRaces="78">
+      <id>392</id>
+      <firstRace>1975</firstRace>
+      <lapRecord>1.68</lapRecord>
+      <name>Италия</name>
+      <bestPilotId>140</bestPilotId>
+    </track>
+  </tracks>
+</fotm>
+

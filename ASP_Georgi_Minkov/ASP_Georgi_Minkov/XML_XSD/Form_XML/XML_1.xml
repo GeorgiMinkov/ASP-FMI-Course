@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fotm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <teams>
+    <team country="САЩ" nickname="Хаас" group="GR3" currency="eur" trackEntered="Австралия">
+      <id>10</id>
+      <name>Хаас</name>
+      <titles>0</titles>
+      <colour>Сив</colour>
+      <poinstEarned>0</poinstEarned>
+      <numberOfWins>0</numberOfWins>
+      <numberOfPolePositions>0</numberOfPolePositions>
+      <teamChief>Гуентер Стейнер</teamChief>
+      <technicalChief>Роб Тайлър</technicalChief>
+      <budget>81541810</budget>
+      <firsTeamEntry />
+      <baseLocation>САЩ</baseLocation>
+      <numberOfRaces>41</numberOfRaces>
+      <pilots>
+        <pilot number="8">
+          <id>158</id>
+          <name>Ромен Грожан</name>
+          <nationality>Франция</nationality>
+        </pilot>
+        <pilot number="20">
+          <id>159</id>
+          <name>Кевин Магнусен</name>
+          <nationality>Дания</nationality>
+        </pilot>
+      </pilots>
+      <powerUnit>Ферари</powerUnit>
+      <fastestPitStop>2.06</fastestPitStop>
+      <teamLogo>haas.jpg</teamLogo>
+    </team>
+  </teams>
+  <groups>
+    <group groupCode="GR1">
+      <text>Група 1 - Водещи отбори</text>
+    </group>
+    <group groupCode="GR2">
+      <text>Група 2 - Солидни отбори</text>
+    </group>
+    <group groupCode="GR3">
+      <text>Група 3 - Напредващи отбори</text>
+    </group>
+    <group groupCode="GR4">
+      <text>Група 4 - Отпадащи отбори</text>
+    </group>
+  </groups>
+  <tracks>
+    <track numberOfRaces="45">
+      <id>391</id>
+      <firstRace>1975</firstRace>
+      <lapRecord>1.48</lapRecord>
+      <name>САЩ</name>
+      <bestPilotId>155</bestPilotId>
+    </track>
+  </tracks>
+</fotm>

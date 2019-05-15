@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<fotm>
+  <teams>
+    <team country="Италия" nickname="Малкият Ред Бул" group="AAO" currency="eur" trackEntered="Бахрейн">
+      <id>1011</id>
+      <name>Форс Индия</name>
+      <titles>0</titles>
+      <colour>Син</colour>
+      <pointsEarned>378</pointsEarned>
+      <numberOfWins>1</numberOfWins>
+      <numberOfPolePositions>1</numberOfPolePositions>
+      <teamChief>Инди</teamChief>
+      <technicalChief>Джеймс Кей</technicalChief>
+      <budget>9005418</budget>
+      <firstTeamEntry>2006</firstTeamEntry>
+      <baseLocation>Италия</baseLocation>
+      <numberOfRaces>226</numberOfRaces>
+      <pilots>
+        <pilot number="10">
+          <id>176</id>
+          <name>Фисикела</name>
+          <nationality>Италия</nationality>
+        </pilot>
+        <pilot number="28">
+          <id>177</id>
+          <name>Серхио Перез</name>
+          <nationality>Мексико</nationality>
+        </pilot>
+      </pilots>
+      <powerUnit>Ферари</powerUnit>
+      <fastestPitStop>2.06</fastestPitStop>
+      <teamLogo>force_india.jpg</teamLogo>
+    </team>
+  </teams>
+  <groups>
+    <group groupCode="GR1">
+      <text>Група 1 - Водещи отбори</text>
+    </group>
+    <group groupCode="GR2">
+      <text>Група 2 - Солидни отбори</text>
+    </group>
+    <group groupCode="GR3">
+      <text>Група 3 - Напредващи отбори</text>
+    </group>
+    <group groupCode="GR4">
+      <text>Група 4 - Отпадащи отбори</text>
+    </group>
+  </groups>
+
+
+  <tracks>
+    <track numberOfRaces="78">
+      <id>399</id>
+      <firstRace>1936</firstRace>
+      <lapRecord>1.48</lapRecord>
+      <name>Монца</name>
+      <bestPilotId>159</bestPilotId>
+    </track>
+  </tracks>
+</fotm>
+
